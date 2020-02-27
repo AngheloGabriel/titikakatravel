@@ -125,8 +125,8 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 20px 0;
-  height: 90px;
+  padding: 30px 0;
+  height: 92px;
   position: fixed;
   left: 0;
   top: 0;
@@ -162,11 +162,7 @@ h6 {
   color: #fff;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
-<<<<<<< HEAD
-}
-=======
 } */
->>>>>>> 565ed5584f5e0f78ec15bf03f3e49de4ba37178d
 
 #header #logo img {
   /* height: 50px; */
