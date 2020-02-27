@@ -294,7 +294,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -1646,7 +1646,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: black;
   padding: .9rem 1.8rem;
   color: #fff;
-  /* border-radius: .4rem; */
+  border-radius: 4px;
   transition: background-color .5s;
 }
 .espaciado {
