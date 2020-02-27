@@ -138,15 +138,16 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 120px;
   transition: all 0.5s;
 }
 
 #header #logo {
   float: left;
+  
 }
 
-#header #logo h1 {
+/* #header #logo h1 {
   font-size: 34px;
   margin: 0;
   padding: 0;
@@ -154,18 +155,18 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-}
+} */
 
-#header #logo h1 a,
+/* #header #logo h1 a,
 #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
-}
+} */
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  /* height: 50px; */
+  width: 250px;
 }
 
 /*--------------------------------------------------------------
@@ -373,6 +374,7 @@ h6 {
 #nav-menu-container {
   float: right;
   margin: 0;
+  padding-top: 23px;
 }
 
 /* Nav Meu Styling */
@@ -432,6 +434,7 @@ h6 {
   position: fixed;
   right: 0;
   top: 0;
+  padding-top: 18px;
   z-index: 999;
   margin: 20px 20px 0 0;
   border: 0;
@@ -1059,6 +1062,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto;
   padding: 0 2.4rem;
 }
+
+.container{
+  width: 80%;
+  
+
+}
+
 .image-group{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1583,10 +1593,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #nav-menu-container {
     padding-right: 60px;
+    padding-top: 25px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -1596,7 +1607,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-width: 200px;
   }
 
   #intro h2 {
