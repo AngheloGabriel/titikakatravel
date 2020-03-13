@@ -552,6 +552,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Sections Header
 --------------------------------*/
+.section-header{
+  margin-top: 2rem;
+}
+
+.section-header1{
+  margin-top: 8rem;
+}
 
 .section-header h3 {
   font-size: 32px;
@@ -1239,6 +1246,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   right: 0;
   transition: 0.2s;
+  border-radius: 50%;
 }
 
 #team .member .member-info-content {
